@@ -1,0 +1,9 @@
+name: Two Workflow
+on: [push]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Hello John
+        id: Hello
+        uses: JuanDaniel2510/fs-github-actions@v1.0.0
