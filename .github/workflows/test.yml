@@ -6,4 +6,4 @@ jobs:
     steps:
       - name: Hello John
         id: Hello
-        uses: JuanDaniel2510/fs-github-actions@v1.0.0
+        uses: JuanDaniel2510/fs-github-actions@v1.0.1
