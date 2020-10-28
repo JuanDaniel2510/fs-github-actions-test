@@ -7,3 +7,5 @@ jobs:
       - name: Hello John
         id: Hello
         uses: JuanDaniel2510/fs-github-actions@v1.0.1
+        with:
+            FIRST_NAME: 'World'
